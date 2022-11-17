@@ -1,0 +1,55 @@
+.our-body {
+  width: 400px;
+  height: 250px;
+  background-image: url('/images/baseBackground.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pwned-count {
+  /* border: 1px black solid; */
+  height: 40px;
+  width: 150px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
+
+#password {
+  /* border: 1px black solid; */
+  /* margin: auto; */
+  border-radius: 58px;
+  height: 25px;
+  width: 250px;
+  border: none;
+}
+#password:focus {
+  outline: 2px solid rgba(175, 244, 250, 0.5);
+}
+
+/* password Checker*/
+h1 {
+  /* border: 1px black solid; */
+  text-align: center;
+  color: white;
+  background-color: rgba(7, 20, 52, 0.162);
+  border-radius: 10px;
+  padding: 4px;
+  /* margin-top: 50px; */
+}
+.pwd-submit-btn {
+  margin-bottom: 25px;
+  height: 40px;
+  width: 140px;
+  font-size: 26px;
+  border-radius: 100px;
+  border: 1px solid rgba(175, 244, 250, 0.5);
+  background-color: rgb(7, 20, 52);
+  color: whitesmoke;
+  cursor: pointer;
+}
